@@ -9,3 +9,7 @@ html {
 body {
     margin: 0 auto;
 }
+
+p {
+    margin-bottom: 1.5rem;
+}
