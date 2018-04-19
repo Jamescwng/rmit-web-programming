@@ -13,3 +13,8 @@ body {
 p {
     margin-bottom: 1.5rem;
 }
+
+label {
+    font-size: 14px;
+    text-transform: uppercase;
+}
