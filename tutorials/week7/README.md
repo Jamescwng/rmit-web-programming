@@ -3,6 +3,11 @@
 ### MDN Docs
 
 **_[Selectors](https://developer.mozilla.org/en-US/docs/Web/API/Document)_**
+- [getElementsByTagName](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByTagName)
+- [getElementsByClassName](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName)
+- [getElementById](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)
+- [querySelector](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
+- [querySelectorAll](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll)
 
 **_[Events](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget)_**
 

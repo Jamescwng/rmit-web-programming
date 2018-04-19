@@ -1,4 +1,4 @@
-// JavaScript selectors
+// Selectors
 
 document.getElementsByTagName("p");
 document.getElementsByClassName("price");
@@ -8,7 +8,7 @@ document.querySelectorAll("p");
 document.querySelectorAll(".price").value;
 document.querySelector("#ervin");
 
-// Event listeners
+// Events
 
 // Number instance methods
 // MDN docs - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
@@ -30,17 +30,17 @@ console.log(typeof null);
 
 const tutors = ["Ervin", "Byron", "Trevor", "Adrian", "Edward", "Hai"];
 
-// for (let i = 0; i < tutors.length; i++) {
-//     console.log(tutors[i] + " is my web programming tutor.");
-// }
+for (let i = 0; i < tutors.length; i++) {
+    console.log(tutors[i] + " is my web programming tutor.");
+}
 
-// tutors.forEach(function(tutor) {
-//     console.log(tutor + " is my web programming tutor.");
-// });
+tutors.forEach(function(tutor) {
+    console.log(tutor + " is my web programming tutor.");
+});
 
-// tutors.forEach(e => {
-//     console.log(`${e} is my web programming tutor.`);
-// });
+tutors.forEach(e => {
+    console.log(`${e} is my web programming tutor.`);
+});
 
 // Template literals
 // MDN docs - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
@@ -49,8 +49,8 @@ const fName = "Ervin";
 const lName = "Chua";
 const age = "15";
 
-const rubbish =
-    "My name is " + fName + " " + lName + " and I'm " + age + " years old.";
+const rubbish = "My name is " + fName + " " + lName + " and I'm " + age + " years old.";
 const better = `My name is ${fName} ${lName} and I'm ${age} years old.`;
+
 console.log(rubbish);
 console.log(better);
