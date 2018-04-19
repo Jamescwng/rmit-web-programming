@@ -1,6 +1,6 @@
 # Week 7 - JavaScript Fundamentals
 
-### MDN docs on JavaScript topics
+### MDN Docs
 
 **_[Selectors](https://developer.mozilla.org/en-US/docs/Web/API/Document)_**
 
