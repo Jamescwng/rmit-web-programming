@@ -1,52 +1,76 @@
 <!DOCTYPE html>
-<html lang='en'>
-  <head>
-    <meta charset="utf-8">
-    <title>Assignment 1</title>
+<?php
+session_start();
+?>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Josh Thomas</title>
 
-    <!-- We will cover style later. Skip down to the body tag -->
-    <link type="text/css" rel="stylesheet" href="/~e54061/css/wireframe.css"/>
-    <style>
-  <style>
-    <?php
-      // This PHP code inserts CSS to style the "current page" link in the nav area
-      $here = $_SERVER['SCRIPT_NAME']; 
-      $bits = explode('/',$here); 
-      $filename = $bits[count($bits)-1]; 
-      echo "nav a[href$='$filename'] {
-      box-shadow: 1px 1px 1px 2px navy;
-    }";
-    ?>
-    
-  </style>
-  </head>
+        <!-- Font Awesome -->
+        <link href="vendor/font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
-  <body>
+        <!-- Custom CSS -->
+        <link href="css/style.css" rel="stylesheet">
 
-    <header>
-      <div>Put company logo and name here</div>
-    </header>
+        <!-- Custom fonts -->
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css?family=Acme|Alegreya+Sans|Amatica+SC|Hind:700" rel="stylesheet">
+    </head>
 
-    <nav>
-      <div>Put website navigation links here</div>
-    </nav>
+    <body>
+        <header>
+            <div class="logo">
+            <a href="index.php"><img src="img/joshtom-logo.PNG" alt="" style="max-height:32px;"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="contact.php">CONTACT</a></li>
+                    <li><a href="shop.php">STORE</a></li>
+                    <a href="cart.php"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                </ul>
+            </nav>
+        </header>
 
-    <main>
-      <article id='Website Under Construction'>
-    <!-- Creative Commons image sourced from https://pixabay.com/en/maintenance-under-construction-2422173/ and used for educational purposes only -->
-        <img src='../media/website-under-construction.png' alt='Website Under Construction' />
-      </article>
-    </main>
+        <main>
+            <div class="desc">
+                <div id="jumbotron-pic">
+                </div>
+                <div class="jumbotron">
+                    <h1><span>Josh Thomas</span> is the lead actor and creator of the comedy series, <span>Please Like Me</span>.</h1>
+                    <p>
+                        After making his mark as an award-winning and hugely-successful stand-up comedian and television panellist, Josh Thomas turned his hand to writing, acting and co-executive producing his own television show for ABC TV, inspired by his life and his comedy, called Please Like Me. Josh's accolades include awards from the Australian Academy and the Australian Writers Guild for his writing in Please Like Me.
+                    </p>
+                </div>
+            </div>
 
-    <footer>
-      <div>&copy;<script>
-        document.write(new Date().getFullYear());
-      </script> Put your name(s), student number(s) and group name here.</div>
-      <div>Disclaimer: This website is not a real website and is being developed as part of a School of Science Web Programming course at RMIT University in Melbourne, Australia.</div>
-      <div>Maintain links to your working <a href='../style-guide.php'>style guide</a>, your <a href='../products.txt'>products spreadsheet</a> and <a href='../orders.txt'>orders spreadsheet</a> here.</div>
-    </footer>
-    
+            <div class="bluray-promo">
+                <h1>Seasons 1, 2 and 3 are now available on DVD and BluRay</h1>
+                <img src="img/plm_s1.jpg" alt="please like me season 1">
+                <img src="img/plm_s2.jpg" alt="please like me season 2">
+                <img src="img/plm_s3.jpg" alt="please like me season 3">
+                <a href="store.php" id="store">Go to Store Page</a>
+            </div>
 
-  </body>
+            <div class="season4-promo">
+                <div class="container">
+                    <h1>Please Like Me Season 4</h1>
+                    <h3>Premiering Wednesday, November 9</h3>
+                    <h3>9:30pm on ABC TV</h3>
+                    <p>
+                        Please Like Me is a comedy series airing in Australia and Canada.
+                    </p>
+                    <div class="broadcast">
+                        <p>AS SEEN ON:</p>
+                        <img src="img/abc_au.png" alt="abc television" />
+                        <img src="img/cbc_ca.png" alt="cbc television" />
+                    </div>
+                </div>
+            </div>
+        </main>
 
+        <?php include 'includes/footer.php';?>
+
+    </body>
 </html>
