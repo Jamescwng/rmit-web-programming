@@ -9,3 +9,7 @@
 **_[Storage](https://developer.mozilla.org/en-US/docs/Web/API/Storage)_**
 - [localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
 - [sessionStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage)
+
+### Noteworthy mentions
+
+- [regex101 - regex tester and debugger](https://regex101.com/)
