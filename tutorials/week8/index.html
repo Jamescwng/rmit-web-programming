@@ -5,11 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+
+    <script src="script.js" defer></script>
+
+    <title>LocalStorage Demonstration</title>
 </head>
 
 <body>
-    <script src="script.js"></script>
+    <h1>Working with LocalStorage</h1>
+    <form>
+        <input type="text" name="name" id="name" placeholder="Name">
+        <input type="text" name="email" id="email" placeholder="Email">
+        <input type="checkbox" name="remember" id="remember">Remember me
+        <button id="submit">Submit</button>
+    </form>
+    <h1 id="secret"></h1>
 </body>
 
 </html>
