@@ -1,4 +1,4 @@
-# Week 8 - Regex in JavaScript
+# Week 8 - Objects, Regex and Storage in JavaScript
 
 ### MDN Docs
 
