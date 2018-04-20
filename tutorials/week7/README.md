@@ -16,3 +16,7 @@
 **_[Array.prototype methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)_**
 
 **_[Template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)_**
+
+### Noteworthy mentions
+
+- [JavaScript Array Explorer _by Sarah Drasner_](https://sdras.github.io/array-explorer/)
