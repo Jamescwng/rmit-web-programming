@@ -2,6 +2,8 @@
 
 ### MDN Docs
 
+**_[Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)_**
+
 **_[Regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)_**
 
 **_[Storage](https://developer.mozilla.org/en-US/docs/Web/API/Storage)_**
