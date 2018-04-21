@@ -9,6 +9,9 @@
   <!-- Custom CSS -->
   <link href="css/style.css" rel="stylesheet">
 
+  <!-- JavaScript -->
+  <script src="js/script.js" defer></script>
+
   <!-- Custom fonts -->
   <link href="https://fonts.googleapis.com/css?family=Fenix|Open+Sans" rel="stylesheet">
 </head>
