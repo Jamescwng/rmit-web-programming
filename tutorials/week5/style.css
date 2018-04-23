@@ -12,9 +12,9 @@ h1 {
 
 .container {
   display: grid;
+  padding: 0 1rem;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-gap: 1rem;
-  padding: 0 1rem;
 }
 
 .item {
