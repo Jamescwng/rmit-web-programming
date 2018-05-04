@@ -10,7 +10,7 @@ var tutor = {
       },
       {
         "code": "COSC2473",
-        "name": "Introduction to Computer Systems and Platform Technologies" 
+        "name": "Introduction to Computer Systems and Platform Technologies"
       },
       {
         "code": "COSC2737",
@@ -20,8 +20,8 @@ var tutor = {
   }
 }
 
-console.log(tutor.name)
-console.log(tutor.courses)
+console.log(tutor.name);
+console.log(tutor.courses);
 console.log(tutor.courses.teaching);
 console.log(tutor.courses.teaching[0].name);
 
@@ -29,7 +29,7 @@ console.log(tutor.courses.teaching[0].name);
 
 // Regular expressions
 var regex = /[A-Za-z]{6,}/g;
-var data = "ervin"
+var data = "ervin";
 
 if (regex.test(data)) {
   return true;
