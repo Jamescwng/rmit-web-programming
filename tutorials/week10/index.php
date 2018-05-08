@@ -1,25 +1,18 @@
-<?php
-  echo "Hello world!\n";
-
-  $capsicum = array("Green", "Yellow", "Red");
-
-  echo "$capsicum[0] capsicums are bitter.\n";
-  echo "$capsicum[2] capsicums are sweet.\n";
-
-  print_r($capsicum);
-  echo "\n";
-  echo "Length of array is ";
-  print_r(count($capsicum));
-
-  $moussakas = array(
-    'base' => 'potato',
-    'filling' => 'beef',
-    'size' => 'large'
-  );
-
-  echo "\n\n";
-
-  foreach($moussakas as $key => $moussaka) {
-    echo "$key: $moussaka\n";
-  }
-?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Recipe</title>
+</head>
+<body>
+  <form action="process.php" method="post">
+    <input type="text" name="name" placeholder="Your name">
+    <input type="text" name="coursename" placeholder="Course name">
+    <input type="text" name="coursecode" placeholder="Course code">
+    <input type="number" name="price" placeholder="Price">
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
